@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 files = [
     "summary_results_small_cpu.csv", "summary_results_small_gpu.csv",
     "summary_results_medium_cpu.csv", "summary_results_medium_gpu.csv",
-    "summary_results_large_cpu.csv", "summary_results_large_gpu.csv",
-]
+    "summary_results_large_cpu.csv", "summary_results_large_gpu.csv", "emission_small_cuda.csv"
+    ]
 
 dfs = []
 for f in files:
